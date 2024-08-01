@@ -2,6 +2,12 @@
 
 ### How to run it?
 
+#### Online:
+
+you can see a preview of the game [by clicking here](https://iamhesham.github.io/guess-the-word-/)
+
+#### Or localy:
+
 -   clone the repo using the folowing command
 
 ```bash
