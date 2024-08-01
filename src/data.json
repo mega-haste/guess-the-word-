@@ -1,0 +1,36 @@
+{
+  "gui_frameworks": [
+    "Avalonia",
+    "Flutter",
+    "React native",
+    "Maui",
+    "Electron",
+    "Wails",
+    "Tauri",
+    "Ionic",
+    "Kotlin multiplatform"
+  ],
+  "programming_languages": [
+    "C sharp",
+    "C plus plus",
+    "V lang",
+    "Go lang",
+    "Kotlin",
+    "Swift",
+    "Java",
+    "Javascript",
+    "Typescript",
+    "Php",
+    "Python",
+    "Lobster",
+    "Zig"
+  ],
+  "game_development": [
+    "Godot",
+    "Raylib",
+    "Sdl2",
+    "Unity",
+    "Unreal engine",
+    "Gdevelop"
+  ]
+}

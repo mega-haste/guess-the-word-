@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 600;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #211e2e;
+    color: white;
+}
+
+#attempts {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: #14151d;
+    color: white;
+}
+
+.container {
+    background-color: #14151d;
+    border-radius: 7px;
+    padding: 15px 20px;
+    max-width: 55vw;
+}
+
+.container h1 {
+    padding: 6px 10px;
+    border-bottom: solid 1px #9b9b9b;
+    text-align: center;
+}
+
+.word-type-inputs-container {
+    padding: 7px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.word-type-input {
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: transparent;
+    border: 1px solid #9b9b9b;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.5s;
+}
+
+.word-type-input:hover {
+    transform: scale(1.05);
+}
+
+.game-pannel {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 5px 20px;
+    gap: 10px;
+}
+
+.game-pannel-object {
+    display: inline-grid;
+    place-items: center;
+    width: 100%;
+    text-align: center;
+    aspect-ratio: 1 / 1;
+    font-size: 1.5rem;
+    border: solid #9d9d9d 1.5px;
+    border-radius: 5px;
+    user-select: none;
+    background-color: #00000084;
+    color: white;
+    padding: 5px;
+}
+
+.game-pannel-object.filled-letter {
+    background-color: #ffffff10;
+}
